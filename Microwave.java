@@ -27,39 +27,39 @@ public class Microwave {
 		
 		if (food.equals("sub") || food.equals("pizza") || food.equals("soup")) {
 			System.out.println("How many " + food + " are you heating?");
-			int porition = scanner.nextInt();
+			int portion = scanner.nextInt();
 			scanner.close();
 			
-			if(porition == 1 && food.equals("sub")) {
+			if(portion == 1 && food.equals("sub")) {
 				time = subTime * 1;
 			}
-			else if (porition == 1 && food.equals("pizza")) {
+			else if (portion == 1 && food.equals("pizza")) {
 				time = pizzaTime * 1;
 			}
-			else if (porition == 1 && food.equals("soup")) {
+			else if (portion == 1 && food.equals("soup")) {
 				time = soupTime * 1;
 			}
-			else if(porition == 2 && food.equals("sub")) {
+			else if(portion == 2 && food.equals("sub")) {
 				time = subTime * 1.5;
 			}
-			else if (porition == 2 && food.equals("pizza")) {
+			else if (portion == 2 && food.equals("pizza")) {
 				time = pizzaTime * 1.5;
 			}
-			else if (porition == 2 && food.equals("soup")) {
+			else if (portion == 2 && food.equals("soup")) {
 				time = soupTime * 1.5;
 			}
-			else if(porition == 3 && food.equals("sub")) {
+			else if(portion == 3 && food.equals("sub")) {
 				time = subTime * 2;
 			}
-			else if (porition == 3 && food.equals("pizza")) {
+			else if (portion == 3 && food.equals("pizza")) {
 				time = pizzaTime * 2;
 			}
-			else if (porition == 3 && food.equals("soup")) {
+			else if (portion == 3 && food.equals("soup")) {
 				time = soupTime * 2;
 			}
 			
 			//Test the number is greater then 3 or not 		
-			if(porition > 3) {
+			if(portion > 3) {
 			    System.out.println("You can only put 3 items in the microwave! ");
 			}
 			else {
