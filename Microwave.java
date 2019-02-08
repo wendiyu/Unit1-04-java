@@ -58,7 +58,7 @@ public class Microwave {
 				time = soupTime * 2;
 			}
 			
-			//Test the number is greater then 3 or not 		
+			//Test the number is greater than 3 or not 		
 			if(portion > 3) {
 			    System.out.println("You can only put 3 items in the microwave! ");
 			}
@@ -67,7 +67,7 @@ public class Microwave {
 			}
 		}
 		else {
-			System.out.println("Invaild input! Please, enter one of options above. ");
+			System.out.println("Invaild input! Please, enter one of options above.(sub, pizza, or soup) ");
 		}
 		
 	}
